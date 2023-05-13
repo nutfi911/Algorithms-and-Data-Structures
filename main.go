@@ -2,7 +2,8 @@ package main
 
 import (
 	recursion "data-structures-algorithms/recursion"
-	"data-structures-algorithms/searching"
+  searching "data-structures-algorithms/searching"
+	sorting "data-structures-algorithms/sorting"
 	"fmt"
 )
 
@@ -34,17 +35,32 @@ func recursionSet() {
 	fmt.Println("Capitalize first: ", recursion.CapitalizeFirst([]string{"burger", "king"}))
 }
 
+
 func searchingSet(){
 	
 	fmt.Println(searching.BinarySearch([]int{1,1,2,3,5,8,13,21,44,65}, 13))
 
 	fmt.Println(searching.NaiveStringSearch("pizosasomgasdomgssomg", "omg"))
 
+
+func sortingSet(){
+	fmt.Println(sorting.BubbleSort([]int{5, 3, 2, 1, 4}))
+
+	fmt.Println(sorting.SelectionSort([]int{5, 3, 2, 1, 4}))
+
+	fmt.Println(sorting.InsertionSort([]int{5, 3, 2, 1, 4}))
+  
 }
 
 func main() {
+	fmt.Println("----- Recursion -----")
 	recursionSet()
+
 
 	fmt.Println("\n----- Searching -----")
 	searchingSet()
+
+	fmt.Println("\n----- Sorting -----")
+	sortingSet()
+  
 }
