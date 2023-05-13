@@ -2,6 +2,7 @@ package main
 
 import (
 	recursion "data-structures-algorithms/recursion"
+	"data-structures-algorithms/searching"
 	"fmt"
 )
 
@@ -33,6 +34,17 @@ func recursionSet() {
 	fmt.Println("Capitalize first: ", recursion.CapitalizeFirst([]string{"burger", "king"}))
 }
 
+func searchingSet(){
+	
+	fmt.Println(searching.BinarySearch([]int{1,1,2,3,5,8,13,21,44,65}, 13))
+
+	fmt.Println(searching.NaiveStringSearch("pizosasomgasdomgssomg", "omg"))
+
+}
+
 func main() {
 	recursionSet()
+
+	fmt.Println("\n----- Searching -----")
+	searchingSet()
 }
