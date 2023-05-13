@@ -2,6 +2,7 @@ package main
 
 import (
 	recursion "data-structures-algorithms/recursion"
+	sorting "data-structures-algorithms/sorting"
 	"fmt"
 )
 
@@ -33,6 +34,18 @@ func recursionSet() {
 	fmt.Println("Capitalize first: ", recursion.CapitalizeFirst([]string{"burger", "king"}))
 }
 
+func sortingSet(){
+	fmt.Println(sorting.BubbleSort([]int{5, 3, 2, 1, 4}))
+
+	fmt.Println(sorting.SelectionSort([]int{5, 3, 2, 1, 4}))
+
+	fmt.Println(sorting.InsertionSort([]int{5, 3, 2, 1, 4}))
+}
+
 func main() {
+	fmt.Println("----- Recursion -----")
 	recursionSet()
+
+	fmt.Println("\n----- Sorting -----")
+	sortingSet()
 }
