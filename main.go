@@ -54,10 +54,10 @@ func sortingSet() {
 
 func main() {
 	fmt.Println("----- Recursion -----")
-	recursionSet()
+	// recursionSet()
 
 	fmt.Println("\n----- Searching -----")
-	searchingSet()
+	// searchingSet()
 
 	fmt.Println("\n----- Sorting -----")
 	sortingSet()
