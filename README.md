@@ -1,1 +1,1 @@
-# Algorithms and Data structures using Javascript
+# Algorithms and Data structures using Go
