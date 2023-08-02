@@ -60,6 +60,7 @@ func main() {
 	// searchingSet()
 
 	fmt.Println("\n----- Sorting -----")
-	sortingSet()
+	// sortingSet()
 
+	sorting.MergeSort()
 }
