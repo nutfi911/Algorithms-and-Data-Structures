@@ -51,6 +51,11 @@ func sortingSet() {
 	fmt.Println(sorting.InsertionSort([]int{5, 3, 2, 1, 4}))
 
 	fmt.Println(sorting.MergeSort([]int{9, 1, 30, 5, 2, 14, 19, 100}))
+
+	fmt.Println(sorting.QuickSort([]int{9, 4, 8, 2, 1, 5, 7, 6, 3}))
+
+	fmt.Println(sorting.RadixSort([]int{9, 1, 30, 2023, 12, 333, 510, 2, 55, 5, 2, 1412, 19, 100}))
+
 }
 
 func main() {
@@ -63,9 +68,4 @@ func main() {
 	// fmt.Println("\n----- Sorting -----")
 	// sortingSet()
 
-	// fmt.Println(sorting.Merge([]int{2, 14, 99, 100}, []int{9, 10, 50}))
-
-	// fmt.Println(sorting.Pivot([]int{9, 4, 8, 2, 1, 5, 7, 6, 3}, 0, 9))
-
-	fmt.Println(sorting.QuickSort([]int{9, 4, 8, 2, 1, 5, 7, 6, 3}))
 }
