@@ -68,4 +68,7 @@ func main() {
 	// fmt.Println("\n----- Sorting -----")
 	// sortingSet()
 
+	fmt.Println("\n----- DATA STRUCTURES -----")
+	// fmt.Println("----- Singly Linked List -----")
+	// SinglyLinkedList.Run();
 }
