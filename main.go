@@ -1,6 +1,7 @@
 package main
 
 import (
+	DoublyLinkedList "data-structures-algorithms/dataStructures/doublyLinkedList"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -71,4 +72,5 @@ func main() {
 	fmt.Println("\n----- DATA STRUCTURES -----")
 	// fmt.Println("----- Singly Linked List -----")
 	// SinglyLinkedList.Run();
+	DoublyLinkedList.Run()
 }
