@@ -1,7 +1,7 @@
 package main
 
 import (
-	Stack "data-structures-algorithms/dataStructures/stack"
+	Queue "data-structures-algorithms/dataStructures/queue"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -77,5 +77,9 @@ func main() {
 	// DoublyLinkedList.Run()
 
 	// fmt.Println("----- Stack -----")
-	Stack.Run()
+	// Stack.Run()
+
+	// fmt.Println("----- Queue -----")
+	Queue.Run()
+
 }
