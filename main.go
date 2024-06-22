@@ -1,7 +1,7 @@
 package main
 
 import (
-	Queue "data-structures-algorithms/dataStructures/queue"
+	"data-structures-algorithms/dataStructures/bst"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -80,6 +80,8 @@ func main() {
 	// Stack.Run()
 
 	// fmt.Println("----- Queue -----")
-	Queue.Run()
+	// Queue.Run()
 
+	fmt.Println("----- BINARY SEARCH TREE -----")
+	bst.Run()
 }
