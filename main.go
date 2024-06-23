@@ -1,7 +1,7 @@
 package main
 
 import (
-	"data-structures-algorithms/dataStructures/heap"
+	priorityqueue "data-structures-algorithms/dataStructures/priorityQueue"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -60,6 +60,7 @@ func sortingSet() {
 }
 
 func main() {
+	// fmt.Println("----- ALGORITHMS -----")
 	// fmt.Println("----- Recursion -----")
 	// recursionSet()
 
@@ -86,6 +87,8 @@ func main() {
 	// bst.Run()
 
 	// fmt.Println("----- Binary Heap -----")
-	heap.Run()
+	// heap.Run()
 
+	// fmt.Println("----- Priority Queue -----")
+	priorityqueue.Run()
 }
