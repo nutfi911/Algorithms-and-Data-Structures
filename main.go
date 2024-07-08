@@ -1,7 +1,7 @@
 package main
 
 import (
-	priorityqueue "data-structures-algorithms/dataStructures/priorityQueue"
+	"data-structures-algorithms/dataStructures/hashmap"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -90,5 +90,8 @@ func main() {
 	// heap.Run()
 
 	// fmt.Println("----- Priority Queue -----")
-	priorityqueue.Run()
+	// priorityqueue.Run()
+
+	fmt.Println("----- Hash Table -----")
+	hashmap.Run()
 }
