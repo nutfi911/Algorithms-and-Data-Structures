@@ -1,7 +1,7 @@
 package main
 
 import (
-	"data-structures-algorithms/dataStructures/hashmap"
+	weightedgraph "data-structures-algorithms/dataStructures/weightedGraph"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -92,6 +92,10 @@ func main() {
 	// fmt.Println("----- Priority Queue -----")
 	// priorityqueue.Run()
 
-	fmt.Println("----- Hash Table -----")
-	hashmap.Run()
+	// fmt.Println("----- Hash Table -----")
+	// hashmap.Run()
+
+	fmt.Println("----- Graph -----")
+	// graph.Run()
+	weightedgraph.Run()
 }

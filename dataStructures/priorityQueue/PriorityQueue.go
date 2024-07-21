@@ -12,7 +12,8 @@ type Node struct {
 }
 
 type PriorityQueue struct {
-	Queue []Node
+	Queue  []Node
+	Length int
 }
 
 func NewPriorityQueue() *PriorityQueue {
@@ -26,6 +27,7 @@ func (pq *PriorityQueue) swap(index1 int, index2 int) {
 }
 
 func (pq *PriorityQueue) Enqueue(new string, priority int) {
+	pq.Length++
 
 	newNode := Node{
 		Value:      new,
@@ -87,6 +89,8 @@ func (pq *PriorityQueue) sinkDown(i int) {
 }
 
 func (pq *PriorityQueue) Dequeue() string {
+	pq.Length--
+
 	lastIndex := len(pq.Queue) - 1
 
 	pq.swap(0, lastIndex)
