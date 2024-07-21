@@ -6,7 +6,7 @@ import (
 )
 
 type Node struct {
-	Value      int
+	Value      string
 	Priority   int
 	InsertedAt time.Time
 }
@@ -25,7 +25,7 @@ func (pq *PriorityQueue) swap(index1 int, index2 int) {
 	pq.Queue[index2] = temp
 }
 
-func (pq *PriorityQueue) Enqueue(new int, priority int) {
+func (pq *PriorityQueue) Enqueue(new string, priority int) {
 
 	newNode := Node{
 		Value:      new,
@@ -86,7 +86,7 @@ func (pq *PriorityQueue) sinkDown(i int) {
 
 }
 
-func (pq *PriorityQueue) Dequeue() int {
+func (pq *PriorityQueue) Dequeue() string {
 	lastIndex := len(pq.Queue) - 1
 
 	pq.swap(0, lastIndex)
