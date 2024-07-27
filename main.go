@@ -1,6 +1,7 @@
 package main
 
 import (
+	weightedgraph "data-structures-algorithms/dataStructures/weightedGraph"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -59,6 +60,7 @@ func sortingSet() {
 }
 
 func main() {
+	// fmt.Println("----- ALGORITHMS -----")
 	// fmt.Println("----- Recursion -----")
 	// recursionSet()
 
@@ -68,4 +70,32 @@ func main() {
 	// fmt.Println("\n----- Sorting -----")
 	// sortingSet()
 
+	fmt.Println("\n----- DATA STRUCTURES -----")
+	// fmt.Println("----- Singly Linked List -----")
+	// SinglyLinkedList.Run();
+
+	// fmt.Println("----- Doubly Linked List -----")
+	// DoublyLinkedList.Run()
+
+	// fmt.Println("----- Stack -----")
+	// Stack.Run()
+
+	// fmt.Println("----- Queue -----")
+	// Queue.Run()
+
+	// fmt.Println("----- Binary Search Tree -----")
+	// bst.Run()
+
+	// fmt.Println("----- Binary Heap -----")
+	// heap.Run()
+
+	// fmt.Println("----- Priority Queue -----")
+	// priorityqueue.Run()
+
+	// fmt.Println("----- Hash Table -----")
+	// hashmap.Run()
+
+	fmt.Println("----- Graph -----")
+	// graph.Run()
+	weightedgraph.Run()
 }
