@@ -8,6 +8,7 @@ package recursion
 // Fib(10) // 55
 // Fib(28) // 317811
 // Fib(35) // 9227465
+// Time complexity = O(2^n)
 func Fib(n int32) int32 {
 
 	if n <= 2 {

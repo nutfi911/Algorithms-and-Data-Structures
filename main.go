@@ -1,7 +1,7 @@
 package main
 
 import (
-	weightedgraph "data-structures-algorithms/dataStructures/weightedGraph"
+	dynamicprogramming "data-structures-algorithms/dynamicProgramming"
 	recursion "data-structures-algorithms/recursion"
 	searching "data-structures-algorithms/searching"
 	sorting "data-structures-algorithms/sorting"
@@ -95,7 +95,10 @@ func main() {
 	// fmt.Println("----- Hash Table -----")
 	// hashmap.Run()
 
-	fmt.Println("----- Graph -----")
+	// fmt.Println("----- Graph -----")
 	// graph.Run()
-	weightedgraph.Run()
+	// weightedgraph.Run()
+
+	fmt.Println("----- Dynamic Programming -----")
+	dynamicprogramming.Run()
 }
